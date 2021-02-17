@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    /* grid-template-columns: 100px 1fr; */
+    grid-template-rows: 80px 40px;
+    grid-template-areas: "header nav nav"
+                             " main main aside"
+                             "footer footer footer";
+
+  }
+  ul{
+      list-style-type: none ;
+  }
+
+header {
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        grid-area: header;
+        }
+nav {
+      background-color: yellow;
+      grid-area: nav;
+      word-spacing: 20em;
+      padding: 20px;
+      text-align: center;
+    }
+ main {
+        background-color: darkblue;
+        color: white;
+        grid-area: main;
+ }
+
+aside {
+        background-color: lightgreen;
+        grid-area: aside;
+      }
+footer {
+         background-color: darkgreen;
+         color: white;
+         grid-area: footer;
+        }

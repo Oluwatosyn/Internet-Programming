@@ -1,0 +1,61 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*.container{
+    width: 80%;
+    margin: 10px auto;
+}
+.container:after { 
+    content: "."; 
+    visibility: hidden; 
+    display: block; 
+    height: 0; 
+    clear: both;
+ }*/
+ section{
+     width: 48%;
+     border-radius: 10px;
+     display: block;
+     Font-family:"Times New Roman";
+ }
+
+.csym019{
+    background-color:lightblue;
+    color: black;
+    display: block; 
+    float: left; 
+    padding:10px;
+    margin: 10px; 
+       
+}
+.csym015{
+    background-color:yellow;
+    color: black;
+     display: block;  
+     float: left; 
+    padding:10px;
+    margin: 10px; 
+     
+}
+
+.csym020{
+    background-color:blue;
+    color: black;
+    display: block; 
+     float: left; 
+    padding:10px;
+    margin: 10px; 
+
+}
+.envno74{
+    background-color:brown;
+    color: black;
+    float: left; 
+    padding:10px;
+    margin: 10px; 
+    
+}
+

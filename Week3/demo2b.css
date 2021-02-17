@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: 100px 80px 1fr 30px;
+    grid-template-areas: "header header header"
+                             "nav main main "
+                             "footer footer footer";
+
+  }
+
+header {
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        grid-area: header;
+        }
+nav {
+      background-color: yellow;
+      grid-area: nav;
+      word-spacing: 10em;
+      text-align: center;
+    }
+ main {
+        background-color: darkblue;
+        color: white;
+        grid-area: main;
+ }
+
+footer {
+         background-color: darkgreen;
+         color: white;
+         grid-area: footer;
+        }
